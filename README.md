@@ -1,5 +1,16 @@
 # RN-TS-Jest-and-Enzyme
 Test-driven RN Development: RN + TS + Unit Testing with Enzyme and Jest
+
+As of v0.18, React Native uses React as a dependency rather than a forked version of the library,
+which means it is now possible to use enzyme's `shallow` with React Native components.
+
+Unfortunately, React Native has many environmental dependencies that can be hard to simulate without
+a host device.
+
+This can be difficult when you want your test suite to run with typical Continuous Integration servers
+such as Travis.
+
+To use enzyme to test React Native, you currently need to configure an adapter, and load an emulated DOM.
 ## Screenshots
 
 
@@ -19,6 +30,11 @@ Test-driven RN Development: RN + TS + Unit Testing with Enzyme and Jest
 * Android SDK
 * Java Development Kit (v8 or newer)
 * Enzyme 
+* React 16.x
+* Jest 24.x
+* Enzyme 3.x
+* Babel 7.x
+* ESLint support
 
 ## Getting Started
 
