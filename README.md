@@ -1,4 +1,4 @@
-# RN-TS-Jest-and-Enzyme
+# RN + TS + Jest and Enzyme
 Test-driven RN Development: RN + TS + Unit Testing with Enzyme and Jest
 
 As of v0.18, React Native uses React as a dependency rather than a forked version of the library,
